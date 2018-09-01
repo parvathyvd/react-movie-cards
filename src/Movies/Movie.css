@@ -1,0 +1,9 @@
+.Movie{
+    color: rgb(252, 252, 252);
+    padding:1rem;
+    box-shadow: 1.5rem 2rem 3rem rgba(0,0,0,0.09);
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 38%, #2989d8 38%, #5a97c9 68%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 38%,#2989d8 38%,#5a97c9 68%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 38%,#2989d8 38%,#5a97c9 68%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

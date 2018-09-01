@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+
+.mainHeading{
+  color: rgb(14, 93, 158);
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainHeading::before{
+  content: '';
+  display: inline-block;
+  height :20px;
+  width: 20px;
+  background: rgb(14, 93, 158);
+  margin-right: 10px;
+  
+}
+.mainHeading::after{
+  content: '';
+  display: inline-block;
+  height :20px;
+  width: 20px;
+  background: rgb(14, 93, 158);
+  margin-left: 10px;
+}
